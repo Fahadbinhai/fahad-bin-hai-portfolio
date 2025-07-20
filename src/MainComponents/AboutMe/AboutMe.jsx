@@ -1,6 +1,9 @@
 import React from 'react';
 import image from '../../assets/logo/cool.jpg';
 import { Fade } from 'react-awesome-reveal';
+import { GoProjectRoadmap } from 'react-icons/go';
+import { FaDownload } from 'react-icons/fa';
+import { RiProjectorFill } from 'react-icons/ri';
 
 const AboutMe = () => {
     return (
@@ -52,10 +55,10 @@ const AboutMe = () => {
 
                         <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
                             <button className="btn btn-primary px-8 py-3 rounded-md text-white bg-purple-600 hover:bg-purple-700 transition">
-                                My Projects
+                               <RiProjectorFill /> My Projects
                             </button>
                             <button className="btn btn-outline px-8 py-3 rounded-md border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition">
-                                Download Resume
+                              <FaDownload />  Download Resume
                             </button>
                         </div>
                     </div>

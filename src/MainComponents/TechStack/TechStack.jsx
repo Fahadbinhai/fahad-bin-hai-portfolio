@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 
 const TechStack = () => {
     const techStack = [
@@ -66,18 +67,20 @@ const TechStack = () => {
                 Technologies That I Use
             </h2>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6 justify-items-center px-7">
-                {techStack.map((tech, index) => (
-                    <div
-                        key={index}
-                        className="bg-white shadow-xl rounded-lg p-6 w-38 h-32 flex flex-col items-center justify-center text-center 
+            <Fade duration={2000}>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6 justify-items-center px-7">
+                    {techStack.map((tech, index) => (
+                        <div
+                            key={index}
+                            className="bg-white shadow-xl rounded-lg p-6 w-38 h-32 flex flex-col items-center justify-center text-center 
             transform transition-transform duration-300 hover:scale-125 hover:shadow-xl"
-                    >
-                        <img className="w-full h-full flex items-center justify-center mb-3" src={tech.img} alt={tech.name} />
-                        {/* <p className="text-gray-700 font-semibold">{tech.name}</p> */}
-                    </div>
-                ))}
-            </div>
+                        >
+                            <img className="w-full h-full flex items-center justify-center mb-3" src={tech.img} alt={tech.name} />
+                            {/* <p className="text-gray-700 font-semibold">{tech.name}</p> */}
+                        </div>
+                    ))}
+                </div>
+            </Fade>
         </div>
     );
 };

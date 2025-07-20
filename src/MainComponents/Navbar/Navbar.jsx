@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo/Logo.jpg';
+import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
     const links = (
@@ -41,7 +42,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-5 gap-12">
                     {links}
                 </ul>
-                <a className="btn bg-[#A53DFF] text-white">Resume</a>
+                <a className="btn bg-[#A53DFF] text-white"> <FaDownload /> Resume</a>
             </div>
         </div>
     );

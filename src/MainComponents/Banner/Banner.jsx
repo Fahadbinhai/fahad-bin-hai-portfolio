@@ -81,19 +81,7 @@ const Banner = () => {
                                 className="p-2 rounded-full text-blue-700 hover:text-blue-600 hover:bg-blue-600 transition-colors duration-300"
                                 aria-label="LinkedIn"
                             >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="35"
-                                    height="35"
-                                    viewBox="0 0 24 24"
-                                    fill="currentColor"
-                                >
-                                    <rect width="24" height="24" rx="6" ry="6" fill="currentColor" />
-                                    <path
-                                        fill="#fff"
-                                        d="M6.94 9.72H4.67v7.53h2.27v-7.53zm-1.14-3a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm8.84 3h-2.17v1.03h.03c.3-.56 1.04-1.15 2.14-1.15 2.29 0 2.71 1.51 2.71 3.47v4.18h-2.27v-3.71c0-.89-.03-2.03-1.24-2.03-1.24 0-1.43.96-1.43 1.96v3.78H10.1v-7.53h2.48v1.03z"
-                                    />
-                                </svg>
+                                <img className='w-8 h-8' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="" />
                             </a>
 
 
