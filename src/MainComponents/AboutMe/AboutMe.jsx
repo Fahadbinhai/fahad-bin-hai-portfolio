@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/logo/super pic.jpg';
+import image from '../../assets/logo/cool.jpg';
 import { Fade } from 'react-awesome-reveal';
 
 const AboutMe = () => {

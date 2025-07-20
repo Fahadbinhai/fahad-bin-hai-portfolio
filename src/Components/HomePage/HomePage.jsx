@@ -3,6 +3,7 @@ import Navbar from '../../MainComponents/Navbar/Navbar';
 import Banner from '../../MainComponents/Banner/Banner';
 import AboutMe from '../../MainComponents/AboutMe/AboutMe';
 import TechStack from '../../MainComponents/TechStack/TechStack';
+import ProjectsSection from '../../MainComponents/ProjectsSection/ProjectsSection';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,10 @@ const HomePage = () => {
                 <AboutMe />
             </div>
             <TechStack></TechStack>
+
+            <div>
+                <ProjectsSection></ProjectsSection>
+            </div>
         </div>
     );
 };
