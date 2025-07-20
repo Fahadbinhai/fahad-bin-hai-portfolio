@@ -36,7 +36,7 @@ const ContactMeCard = () => {
     };
 
     return (
-        <section className='flex justify-center items-center py-10 px-4 z-20'>
+        <section id='contact' className='flex justify-center items-center py-10 px-4 z-20'>
             <div className="w-full max-w-[1000px] bg-gray-100 shadow-2xl rounded-xl p-6 md:p-10 flex flex-col lg:flex-row gap-[50px]">
 
                 {/* Left Side - Address */}

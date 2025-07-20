@@ -5,10 +5,10 @@ import { FaDownload } from 'react-icons/fa';
 const Navbar = () => {
     const links = (
         <>
-            <li><a className="hover:text-blue-800">About</a></li>
-            <li><a className="hover:text-blue-800">Technology</a></li>
-            <li><a className="hover:text-blue-800">Projects</a></li>
-            <li><a className="hover:text-blue-800">Contact</a></li>
+            <li><a href='#about' className="hover:text-blue-800">About</a></li>
+            <li><a href='#tech' className="hover:text-blue-800">Technology</a></li>
+            <li><a href='#projects' className="hover:text-blue-800">Projects</a></li>
+            <li><a href='#contact' className="hover:text-blue-800">Contact</a></li>
         </>
     );
 

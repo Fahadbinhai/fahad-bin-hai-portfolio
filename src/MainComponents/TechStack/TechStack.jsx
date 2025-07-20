@@ -62,7 +62,7 @@ const TechStack = () => {
     ];
 
     return (
-        <div className="bg-gray-200 -mt-50 pt-70 py-16 px-6">
+        <div id='tech' className="bg-gray-200 -mt-50 pt-70 py-16 px-6">
             <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
                 Technologies That I Use
             </h2>

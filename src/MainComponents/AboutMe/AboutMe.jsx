@@ -7,8 +7,8 @@ import { RiProjectorFill } from 'react-icons/ri';
 
 const AboutMe = () => {
     return (
-        <section className="max-w-[95%] md:max-w-5xl xl:max-w-6xl 2xl:max-w-[1400px] mx-auto bg-white shadow-2xl border border-gray-100 p-6 md:p-10 lg:p-16 xl:p-20 2xl:p-24 rounded-2xl">
-            <Fade duration={1500}>
+        <section id='about' className="max-w-[95%] md:max-w-5xl xl:max-w-6xl 2xl:max-w-[1400px] mx-auto bg-white shadow-2xl border border-gray-100 p-6 md:p-10 lg:p-16 xl:p-20 2xl:p-24 rounded-2xl">
+            <Fade duration={2000}>
                 <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 xl:gap-20 2xl:gap-24">
                     {/* Image Section */}
                     <figure className="
