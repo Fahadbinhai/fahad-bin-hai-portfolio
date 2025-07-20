@@ -1,0 +1,54 @@
+import React from 'react';
+import { GoDotFill } from 'react-icons/go';
+import { Link } from 'react-router';
+import { FaEye } from 'react-icons/fa';
+import { IoLink } from 'react-icons/io5';
+import Project2Slider from './Project2Slider/Project2Slider';
+
+const Project2 = () => {
+    return (
+        <div className="card shadow-2xl shadow-black flex flex-col lg:flex-row 
+            w-full md:max-w-[1200px] lg:max-w-[1500px] mx-auto mt-14 border-4 rounded-xl">
+
+            {/* Left side - slider box */}
+            <div className="w-full lg:w-1/2 flex items-center justify-center p-4 md:p-6 lg:p-8">
+                <div className="w-full max-w-[500px] h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] xl:h-[400px] rounded overflow-hidden shadow-lg">
+                    <Project2Slider />
+                </div>
+            </div>
+
+            {/* Right side - details */}
+            <div className="flex flex-col w-full lg:w-1/2 text-black p-4 md:p-6 lg:p-8 xl:p-10">
+
+                {/* Title & Description (Center Aligned) */}
+                <div className="text-center mb-6">
+                    <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl mb-4">MarathonMania</h2>
+                    <p className="font-medium text-base md:text-lg text-black">
+                        MarathonMania is a user-friendly web application for marathon enthusiasts.
+                        Users can create, join, and manage marathon events with ease.
+                        It streamlines the entire experience into one interactive platform.
+                    </p>
+                </div>
+
+                {/* Feature List (Left Aligned) */}
+                <ul className="space-y-2 text-black mb-6 text-left">
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> User can create Marathon Events, Delete and Update</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> User can join in marathons created by others</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> User can see the upcoming marathon events</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> User can read blogs about marathons</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Front-end :</span> React, React Router, DaisyUi, Firebase etc</li>
+                    <li className="flex items-start"><GoDotFill className="mt-1" /> <span className="text-[#DC143C]">Back-end :</span> Node.js, Express.js, MongoDB</li>
+                </ul>
+
+                {/* Buttons (Left Aligned) */}
+                <div className="flex flex-wrap gap-4 text-left">
+                    <Link to='https://marathon-handle-project.web.app/' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white min-w-[140px] h-12"><FaEye />Live Preview</Link>
+                    <Link to='https://github.com/Fahadbinhai/Marathon-management-client' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white min-w-[140px] h-12"><IoLink />Front-End Code</Link>
+                    <Link to='https://github.com/Fahadbinhai/Marathon-management-server' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white min-w-[140px] h-12"><IoLink />Back-End Code</Link>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Project2;
