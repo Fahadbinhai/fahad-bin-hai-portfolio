@@ -24,7 +24,7 @@ const TechStack = () => {
         },
         {
             name: 'React Router',
-            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg'
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original-wordmark.svg'
         },
         {
             name: 'Framer Motion',

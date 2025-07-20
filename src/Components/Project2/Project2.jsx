@@ -42,9 +42,9 @@ const Project2 = () => {
 
                 {/* Buttons (Left Aligned) */}
                 <div className="flex flex-wrap gap-4 text-left">
-                    <Link to='https://marathon-handle-project.web.app/' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white min-w-[140px] h-12"><FaEye />Live Preview</Link>
-                    <Link to='https://github.com/Fahadbinhai/Marathon-management-client' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white min-w-[140px] h-12"><IoLink />Front-End Code</Link>
-                    <Link to='https://github.com/Fahadbinhai/Marathon-management-server' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white min-w-[140px] h-12"><IoLink />Back-End Code</Link>
+                    <Link to='https://marathon-handle-project.web.app/' className="btn btn-outline text-[#A53DFF] hover:bg-[#A53DFF] hover:text-white border-2 border-[#A53DFF] min-w-[140px] h-12"><FaEye />Live Preview</Link>
+                    <Link to='https://github.com/Fahadbinhai/Marathon-management-client' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white border-2 border-[#A53DFF] text-[#A53DFF] min-w-[140px] h-12"><IoLink />Client Side</Link>
+                    <Link to='https://github.com/Fahadbinhai/Marathon-management-server' className="btn btn-outline hover:bg-[#A53DFF] hover:text-white border-2 border-[#A53DFF] min-w-[140px] text-[#A53DFF] h-12"><IoLink />Server Side</Link>
                 </div>
             </div>
         </div>

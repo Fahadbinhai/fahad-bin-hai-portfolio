@@ -11,50 +11,51 @@ import img7 from '../../assets/project3/img7.png'
 import img8 from '../../assets/project3/img8.png'
 import img9 from '../../assets/project3/img9.png'
 import img10 from '../../assets/project3/img10.png'
+import { Slide } from 'react-awesome-reveal';
 
 const Project3Slider = () => {
     return (
-        <Carousel
-            showArrows={false}
-            showThumbs={false}
-            showStatus={false}
-            infiniteLoop
-            autoPlay
-            interval={3000}
-            stopOnHover
-            showIndicators={false}
-        >
-            <div className='h-[500px]'>
-                <img src={img1} alt="Screenshot 1" className="object-fit w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img2} alt="Screenshot 2" className="object-fit w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img3} alt="Screenshot 3" className="object-fit w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img4} alt="Screenshot 3" className="object-fit w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img5} alt="Screenshot 3" className="object-fit w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img6} alt="Screenshot 3" className="object-fit w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img7} alt="Screenshot 3" className="object-cover w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img8} alt="Screenshot 3" className="object-fit w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img9} alt="Screenshot 3" className="object-cover w-full h-full" />
-            </div>
-            <div className='h-[500px]'>
-                <img src={img10} alt="Screenshot 3" className="object-fit w-full h-full" />
-            </div>
-        </Carousel>
+            <Carousel
+                showArrows={false}
+                showThumbs={false}
+                showStatus={false}
+                infiniteLoop
+                autoPlay
+                interval={3000}
+                stopOnHover
+                showIndicators={false}
+            >
+                <div className='h-[500px]'>
+                    <img src={img1} alt="Screenshot 1" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img2} alt="Screenshot 2" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img3} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img4} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img5} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img6} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img7} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img8} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img9} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+                <div className='h-[500px]'>
+                    <img src={img10} alt="Screenshot 3" className="object-cover w-full h-full" />
+                </div>
+            </Carousel>
     );
 };
 
