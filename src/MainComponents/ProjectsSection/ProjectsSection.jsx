@@ -2,6 +2,8 @@ import React from 'react';
 import { Zoom } from 'react-awesome-reveal';
 import Project1 from '../../Project1/Project1';
 import Project2 from '../../Components/Project2/Project2';
+import Project3 from '../../Project3/Project3';
+
 
 
 const ProjectsSection = () => {
@@ -14,7 +16,13 @@ const ProjectsSection = () => {
 
             {/* project 1 */}
 
-            <Zoom className=''>
+            <Zoom>
+                <Project3></Project3>
+            </Zoom>
+
+
+
+            <Zoom className='mt-30'>
                 <Project2></Project2>
             </Zoom>
 
@@ -26,9 +34,7 @@ const ProjectsSection = () => {
 
 
 
-            {/* <Zoom className='mt-16'>
-                <Project3></Project3>
-            </Zoom> */}
+
         </div>
     );
 };
