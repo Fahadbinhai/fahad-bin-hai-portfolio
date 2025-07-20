@@ -21,7 +21,7 @@ const HomePage = () => {
             <ProjectsSection />
 
             {/* Contact Form overlapping above Footer */}
-            <div className="relative z-30 -mb-[170px] mt-[300px]">
+            <div className="relative z-30 -mb-[130px] mt-[200px]">
                 <ContactMeCard />
             </div>
 
