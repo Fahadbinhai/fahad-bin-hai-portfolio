@@ -62,7 +62,7 @@ const Banner = () => {
                         <div className='flex items-center gap-10'>
                             {/* Github Icon */}
                             <a
-                                href="https://github.com/yourusername"
+                                href="https://github.com/Fahadbinhai"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 rounded-full text-gray-700 hover:text-white hover:bg-gray-800 transition-colors duration-300"
@@ -75,7 +75,7 @@ const Banner = () => {
 
                             {/* Linkedin Icon */}
                             <a
-                                href="https://linkedin.com/in/yourusername"
+                                href="https://www.linkedin.com/in/fahad-bin-hai-tihan/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 rounded-full text-blue-700 hover:text-blue-600 hover:bg-blue-600 transition-colors duration-300"
@@ -87,8 +87,7 @@ const Banner = () => {
 
                             {/* Gmail Icon */}
                             <a
-                                href="mailto:your.email@example.com"
-                                target="_blank"
+                                href="#contact"
                                 rel="noopener noreferrer"
                                 className="p-2 rounded-full text-red-600 hover:text-white hover:bg-red-500 transition-colors duration-300"
                                 aria-label="Email"

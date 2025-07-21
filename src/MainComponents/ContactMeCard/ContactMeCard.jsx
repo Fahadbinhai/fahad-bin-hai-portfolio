@@ -13,11 +13,11 @@ const ContactMeCard = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_yw9o7sd',        
-            'template_bvccn24',       
+            'service_yw9o7sd',
+            'template_bvccn24',
             form.current,
             {
-                publicKey: 'KRSs8kmxdH4WN6Mae'  
+                publicKey: 'KRSs8kmxdH4WN6Mae'
             }
         )
             .then(() => {
@@ -25,7 +25,7 @@ const ContactMeCard = () => {
                     icon: 'success',
                     title: 'Message Sent Successfully',
                 });
-                e.target.reset();  
+                e.target.reset();
             })
             .catch(() => {
                 Swal.fire({
@@ -71,15 +71,15 @@ const ContactMeCard = () => {
                         </div>
                     </div>
                     <div className='mt-5 flex gap-6 px-20'>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/fahad-bin-hai-tihan/">
                             <img className='w-7 h-7 rounded' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="" />
                         </a>
 
-                        <a href="">
+                        <a href="https://www.facebook.com/fahad.bin.hai.tihan.2024">
                             <img className='w-7 h-7 rounded' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/facebook/facebook-original.svg" alt="" />
                         </a>
 
-                        <a href="">
+                        <a href="https://github.com/Fahadbinhai">
                             <img className='w-7 h-7 rounded' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" />
                         </a>
 
