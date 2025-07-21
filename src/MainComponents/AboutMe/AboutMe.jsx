@@ -6,6 +6,8 @@ import { FaDownload } from 'react-icons/fa';
 import { RiProjectorFill } from 'react-icons/ri';
 
 const AboutMe = () => {
+
+
     return (
         <section id='about' className="max-w-[95%] md:max-w-5xl xl:max-w-6xl 2xl:max-w-[1400px] mx-auto bg-white shadow-2xl border border-gray-100 p-6 md:p-10 lg:p-16 xl:p-20 2xl:p-24 rounded-2xl">
             <Fade duration={2000}>
@@ -54,11 +56,11 @@ const AboutMe = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                            <button className="btn btn-primary px-8 py-3 rounded-md text-white bg-purple-600 hover:bg-purple-700 transition">
-                               <RiProjectorFill /> My Projects
-                            </button>
+                            <a href='#projects' className="btn btn-primary px-8 py-3 rounded-md text-white bg-purple-600 hover:bg-purple-700 transition">
+                                <RiProjectorFill /> My Projects
+                            </a>
                             <button className="btn btn-outline px-8 py-3 rounded-md border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition">
-                              <FaDownload />  Download Resume
+                                <FaDownload />  Download Resume
                             </button>
                         </div>
                     </div>
