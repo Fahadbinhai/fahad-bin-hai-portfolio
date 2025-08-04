@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo/Logo.jpg';
 import { FaDownload } from 'react-icons/fa';
+import resume from '../../../public/Resume_FahadBinHai.pdf'
 
 const Navbar = () => {
     const links = (
@@ -32,7 +33,7 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         {links}
-                        <li><a className="btn mt-2">Button</a></li>
+                        <li><a href={resume} download='Resume_FahadBinHai' className="btn mt-2">Resume</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +43,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-5 gap-12">
                     {links}
                 </ul>
-                <a className="btn bg-[#A53DFF] text-white"> <FaDownload /> Resume</a>
+                <a href={resume} download='Resume_FahadBinHai' className="btn bg-[#A53DFF] text-white"> <FaDownload /> Resume</a>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import { Fade } from 'react-awesome-reveal';
 import { GoProjectRoadmap } from 'react-icons/go';
 import { FaDownload } from 'react-icons/fa';
 import { RiProjectorFill } from 'react-icons/ri';
+import resume from '../../../public/Resume_FahadBinHai.pdf'
 
 const AboutMe = () => {
 
@@ -59,9 +60,9 @@ const AboutMe = () => {
                             <a href='#projects' className="btn btn-primary px-8 py-3 rounded-md text-white bg-purple-600 hover:bg-purple-700 transition">
                                 <RiProjectorFill /> My Projects
                             </a>
-                            <button className="btn btn-outline px-8 py-3 rounded-md border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition">
+                            <a href={resume} download='Resume_FahadBinHai' className="btn btn-outline px-8 py-3 rounded-md border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white transition">
                                 <FaDownload />  Download Resume
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

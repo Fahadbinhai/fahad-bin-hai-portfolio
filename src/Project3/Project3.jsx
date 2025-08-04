@@ -50,13 +50,13 @@ const Project3 = () => {
                 {/* Buttons */}
                 <Slide direction="up" delay={700} duration={1000} triggerOnce>
                     <div className="flex flex-wrap gap-4 text-left">
-                        <Link to='https://hobby-hub-ca344.web.app/' className="btn btn-outline border-2 border-[#A53DFF] hover:bg-[#A53DFF] hover:text-white text-[#A53DFF] min-w-[140px] h-12">
+                        <Link to='https://home-vista-51860.web.app/' className="btn btn-outline border-2 border-[#A53DFF] hover:bg-[#A53DFF] hover:text-white text-[#A53DFF] min-w-[140px] h-12">
                             <FaEye /> Live Preview
                         </Link>
-                        <Link to='https://github.com/Fahadbinhai/Hobby-Hub-client' className="btn btn-outline border-2 border-[#A53DFF] hover:bg-[#A53DFF] hover:text-white min-w-[140px] text-[#A53DFF] h-12">
+                        <Link to='https://github.com/Fahadbinhai/HomeVista-ClientSide' className="btn btn-outline border-2 border-[#A53DFF] hover:bg-[#A53DFF] hover:text-white min-w-[140px] text-[#A53DFF] h-12">
                             <IoLink /> Client Side
                         </Link>
-                        <Link to='https://github.com/Fahadbinhai/hobbyHub-server' className="btn btn-outline border-2 border-[#A53DFF] min-w-[140px] hover:bg-[#A53DFF] hover:text-white text-[#A53DFF] h-12">
+                        <Link to='https://github.com/Fahadbinhai/HomeVista-ServerSide' className="btn btn-outline border-2 border-[#A53DFF] min-w-[140px] hover:bg-[#A53DFF] hover:text-white text-[#A53DFF] h-12">
                             <IoLink /> Server Side
                         </Link>
                     </div>
